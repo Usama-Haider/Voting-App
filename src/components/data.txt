@@ -1,0 +1,152 @@
+import React from "react";
+import './Table.css';
+
+
+                                // FOR THE STATIC DATA
+
+     but its not the prefferable because if the thousand object then you made it thousand
+     <tr>
+     <td></td>
+     </tr>
+
+function Table() {
+
+    return (
+        <div className="container">
+            <h1>This is our dynamic data table</h1>
+
+
+
+            <table border={5}>
+
+            <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Institute</th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Noman</td>
+                <td>21</td>
+                <td>noman@gmail.com</td>
+                <td>VU</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Usman</td>
+                <td>31</td>
+                <td>usman@gmail.com</td>
+                <td>PU</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ahmad</td>
+                <td>26</td>
+                <td>ahmad@gmail.com</td>
+                <td>LU</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ali</td>
+                <td>28</td>
+                <td>ali@gmail.com</td>
+                <td>PU</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Noman</td>
+                <td>21</td>
+                <td>noman@gmail.com</td>
+                <td>VU</td>
+            </tr>
+
+
+            </tbody>
+            </table>
+        </div>
+    );
+}
+
+
+
+// make this component available in whole app
+export default Table;
+
+//        FOR THE DYNAMIC DATA if the thousand objects are exists then 
+
+import React from 'react';
+import './Table.css';
+
+we make a array of object
+const users = [
+    {
+        name : 'Noman',
+        age : 31,
+        email : 'noman@gmail.com',
+        institute : 'VU',
+    },
+    {
+        name : 'Noman',
+        age : 31,
+        email : 'noman@gmail.com',
+        institute : 'VU',
+    },
+    {
+        name : 'Noman',
+        age : 31,
+        email : 'noman@gmail.com',
+        institute : 'VU',
+    },
+    {
+        name : 'Noman',
+        age : 31,
+        email : 'noman@gmail.com',
+        institute : 'VU',
+    },
+    {
+        name : 'Noman',
+        age : 31,
+        email : 'noman@gmail.com',
+        institute : 'VU',
+    },
+];
+
+function Table () 
+{
+    return (
+        div
+    );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

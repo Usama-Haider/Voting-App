@@ -1,0 +1,14 @@
+First Concept:
+Whenever a project is made by create-react-app platform. A package.json file 
+appears in the folder structure of that platform. 
+
+Package.json:
+It is a file where all dependencies are mentioned. Means we must have to install 
+all of these dependencies before start coding.
+
+How to install them:
+These dependencies are install bia node package manager i.e. npm or yarn
+syntax: npm install
+
+node_modules:
+It is the folder where all dependencies after installation via npm appear. 

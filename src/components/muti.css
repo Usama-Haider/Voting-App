@@ -1,0 +1,75 @@
+*{
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+.item {
+    display: flex;
+    background-color: #fff;
+    width: 80%;
+    transition: all 0.4s linear;
+} 
+.main
+{
+    display: flex;
+    justify-content: center;
+}
+.item:first-child{
+    /* margin-top: 20px; */
+}
+.item > .content {
+    background-color: #fff !important;
+}
+h1, h2, h3{
+    margin: 0%;
+    padding: 0%;
+}
+.unstackable{
+    /* background-color: red;
+    padding: 0;
+    margin: 0;
+    margin: 20px 10px; */
+}
+
+.header{
+    padding: 5px;
+}
+div .item {
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+div .item .image img{
+    border-radius: 20px 0px 0px 20px;
+    min-height: 100%;
+    margin-right: 50px;
+}
+            /*  - -- - - - - - -icons - -- - - - - --  - */
+            /*  - -- - - - - - -hover classes - -- - - - - --  - */
+
+.icon:hover{
+    background-color: rgb(9, 221, 9);
+    color: azure;
+}
+.icondown:hover{ 
+    background-color: rgb(242, 84, 84);
+    color: azure;
+}
+.icondown, .icon {
+    cursor: pointer;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 15px;
+    padding: 8px;
+}
+ .item:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;    
+}
+ .item > .content {
+ }
+.up-font{
+    margin-bottom: 5px;
+}
+.down-font {
+    margin-top: 5px;
+}
